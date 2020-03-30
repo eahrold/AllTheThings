@@ -1,0 +1,20 @@
+{
+  "name": "allthethings",
+  "version": "1.0.0",
+  "description": "A place to offload some thoughts.",
+  "main": "index.js",
+  "dependencies": {
+    "@11ty/eleventy": "^0.11.0-beta.1",
+    "luxon": "^1.22.2",
+    "@11ty/eleventy-navigation": "^0.1.5",
+    "@11ty/eleventy-navigation": "^0.1.5",
+    "@11ty/eleventy-plugin-syntaxhighlight": "^3.0.1"
+  },
+  "devDependencies": {
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
