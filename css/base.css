@@ -7,6 +7,7 @@
   --navy: #17050F;
   --blue: #082840;
   --white: #fff;
+  --purple: rgb(111, 0, 111);
 }
 * {
   box-sizing: border-box;
@@ -35,7 +36,7 @@ a[href] {
   color: var(--blue);
 }
 a[href]:visited {
-  color: var(--navy);
+  color: var(--purple);
 }
 main {
   padding: 1rem;
@@ -83,6 +84,12 @@ pre {
   margin: .5em 0;
   background-color: #f6f6f6;
 }
+
+.container {
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
 .highlight-line {
   display: block;
   padding: 0.125em 1em;

@@ -8,16 +8,10 @@ title: Hello World
 ### I want to remember
 
 ### Fun Code Snippets
-
-- [ReactNative](./funcode/react-native)
+[Here](./tags/funcode) are some code bits and pieces I've put together for future reference.
 
 ### Contemplate the Usefulness
-
-- [GitHub actions](./usefullness/github-actions)
+[Here](./tags/usefulness) are musings as to the usefulness of things.
 
 ### Reviews
-
-- [SvelteNative](./reviews/svelte-native)
-- [11ty](./reviews/11ty)
-- [Netlify](./reviews/netlify)
-- [Netlify CMS](./reviews/netlify-cms)
+[Here](./tags/reviews) are some totally subjective pros vs cons lists.
