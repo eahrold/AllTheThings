@@ -54,5 +54,5 @@ return <FlatList
     >
 ```
 
-Another benefit of this is the same load useEffect is triggered on mount, so a seperate one isn't needed to uniquely handle a refreshing state.
+Another benefit of this is the same load useEffect is triggered on mount, so a separate one isn't needed to uniquely handle a refreshing state.
 

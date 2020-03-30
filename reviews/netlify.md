@@ -23,7 +23,9 @@ date: 2020-03-26T17:15:32.261Z
 
 ### cons
 
+Actually I don't find many cons with Netlify. Having done 3 sites now, each one was super smooth. Event though they were different.  The on down side is that there's not a DB feature with PASS services like Heroku, but it's not trying to either. 
+
 
 ### All in all.
 
-I'm not sure this serves a non technical user as a Static Site Generator. Nteify itself has a number of interesting features such as built-in form submission and authentication managed by netlify, and it perports itself as a platform built for scalability. It may make sense for small to mid-level markteing type sites, where data ownership
+I'm not sure this serves a non technical user as a Static Site Generator. Netlify itself has a number of interesting features such as built-in form submission and authentication managed by Netlify, and it purports itself as a platform built for scalability. It may make sense for small to mid-level marketing type sites, where data ownership
