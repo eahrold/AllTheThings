@@ -18,6 +18,7 @@ date: 2020-03-26T17:15:32.261Z
 
 - The media library feature has some 3rd party dependencies.
 
+- The Identity feature didn't work in all browsers. Even after including polyfills invite accepting modals didn't show up at all.
 
 ### All in all.
 Could work nicly for mid sized sites that just need static content. Though Media files might be a little tricky.

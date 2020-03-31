@@ -82,7 +82,7 @@ collections:
 
 - This should be repeated for each collection, (Posts, Pages, etc...)
 
-### 3. Enable Identity in the Netifly
+### 3. Enable Identity in the Netlify
 
 - Navigate to your site's identity settings portal `https://app.netlify.com/sites/_your_instance_name_/settings/identity`
 - Enable identity (there is a free tier) w/ < 1000 users
@@ -119,11 +119,29 @@ Then just before the closing body
 </body>
 ```
 
-### 4. Setup Media Managment
+### 4. Setup Media Managment using Netlify Large Media with Netlify CMS
+- Install netlify-cli and the credential helper, if you don't have it, and login
+
+```bash
+brew tap netlify/git-credential-netlify
+brew install git-credential-netlify
+npm install netlify-cli -g
+netlify login
+```
+_* this assumes you have homebrew installed_
+
+Setup GitLFS support using the netlify-lm-plugin
+```bash
+netlify link
+netlify plugins:install netlify-lm-plugin
+netlify lm:setup
+git lfs track "static/images/**"
+```
+
+-
 
 ### 5. Deploy
 
 ### 6. Login
 - Invite yourself as a user. https://app.netlify.com/sites/_your_instance_name_/identity
-
-### 7. Create a new entry.
+- Note as of 3/31/2020 the identity plugin did not work well in Safari 13.0.5, and the accept invite did not work at all (wouldn't even present modal to dispay).
