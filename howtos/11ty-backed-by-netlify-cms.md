@@ -128,20 +128,24 @@ brew install git-credential-netlify
 npm install netlify-cli -g
 netlify login
 ```
+
 _* this assumes you have homebrew installed_
 
-Setup GitLFS support using the netlify-lm-plugin
+- Setup GitLFS support using the netlify-lm-plugin
+
 ```bash
 netlify link
 netlify plugins:install netlify-lm-plugin
+netlify lm:install
 netlify lm:setup
 git lfs track "static/images/**"
 ```
 
--
 
 ### 5. Deploy
 
 ### 6. Login
+
 - Invite yourself as a user. https://app.netlify.com/sites/_your_instance_name_/identity
-- Note as of 3/31/2020 the identity plugin did not work well in Safari 13.0.5, and the accept invite did not work at all (wouldn't even present modal to dispay).
+
+_Note as of 3/31/2020 the identity plugin did not work well in Safari 13.0.5 and most likely not in ie either. The accept_invite did not work at all (wouldn't even present modal to dispay)._
