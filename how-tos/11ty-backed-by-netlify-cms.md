@@ -88,6 +88,34 @@ collections:
 - Enable identity (there is a free tier) w/ < 1000 users
 - In the Registration section Set the proper registration preferences. I prefere the invite only option.
 
+- Add the following snippets to your site's base template. Mine is at `_includes/layout.njk` for example, and other templates inherit for this.
+
+In the head
+```
+<head>
+  ...
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+</head>
+```
+
+Then just before the closing body
+```
+<body>
+  ...
+  <script>
+    if (window.netlifyIdentity) {
+      window.netlifyIdentity.on("init", user => {
+        if (!user) {
+          window.netlifyIdentity.on("login", () => {
+            document.location.href = "/admin/";
+          });
+        }
+      });
+    }
+  </script>
+
+</body>
+```
 
 ### 4. Setup Media Managment
 
