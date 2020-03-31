@@ -4,8 +4,6 @@ title: Connect existing 11ty to NetlifyCMS
 date: 2020-03-31T17:15:32.261Z
 ---
 
-# Connect existing 11ty to NetlifyCMS
-
 ### 1. Create Necissary Files / Folders
 
 - Add a folder at the root of the project called `admin`

@@ -1,10 +1,8 @@
 ---
 layout: layout.njk
-title: Svelte Native
+title: Svelte Native and {NS}
 date: 2020-03-26T17:15:32.261Z
 ---
-
-# Svelte Native and {NS}
 
 I'm A NativeScript developer, should I start my next project in SvelteNative
 **Yes** If you've been working with Angular, jump ship. It's time. If you've been working with vue, Svelte is a really easy switch. Much of the Svelte syntax will be the same. And Svelte does have real performance benefits compared with the virtual dom.

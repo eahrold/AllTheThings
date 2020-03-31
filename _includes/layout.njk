@@ -36,6 +36,8 @@ title: All The Things...
       </ul>
     </header>
     <div class='container'>
+    {%- if date -%}<h4>{{ date | readableDate }}</h4>{%- endif -%}
+    <h1>{{ title | safe }}</h1>
     {{ content | safe }}
     </div>
   </body>

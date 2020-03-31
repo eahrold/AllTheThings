@@ -1,10 +1,8 @@
 ---
 layout: layout.njk
-title: Netlify
+title: Netlify Platform
 date: 2020-03-26T17:15:32.261Z
 ---
-
-# Netlify Platform
 
 ### pros
 - The setup was pretty straight forward.
@@ -23,7 +21,7 @@ date: 2020-03-26T17:15:32.261Z
 
 ### cons
 
-Actually I don't find many cons with Netlify. Having done 3 sites now, each one was super smooth. Event though they were different.  The on down side is that there's not a DB feature with PASS services like Heroku, but it's not trying to either. 
+Actually I don't find many cons with Netlify. Having done 3 sites now, each one was super smooth. Event though they were different.  The on down side is that there's not a DB feature with PASS services like Heroku, but it's not trying to either.
 
 
 ### All in all.
