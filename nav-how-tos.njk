@@ -1,0 +1,12 @@
+---
+layout: layout.njk
+permalink: /how-tos/
+eleventyNavigation:
+  key: How To's
+  order: 3
+---
+
+<h1>Fun Code</h1>
+
+{% set postslist = collections.funcode %}
+{% include "postslist.njk" %}

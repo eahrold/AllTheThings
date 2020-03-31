@@ -28,6 +28,10 @@ module.exports = function(eleventyConfig) {
   });
 
   eleventyConfig.addPassthroughCopy("css");
+
+  eleventyConfig.addPassthroughCopy("admin");
+  eleventyConfig.addPassthroughCopy("static/images");
+
   eleventyConfig.addPlugin(syntaxHighlight);
   return {
     passthroughFileCopy: true
