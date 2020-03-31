@@ -17,6 +17,7 @@ date: 2020-03-31T17:15:32.261Z
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
     <title>Netlify CMS</title>
   </head>
@@ -29,6 +30,7 @@ date: 2020-03-31T17:15:32.261Z
   </body>
 </html>
 ```
+
 
 - Add a file `admin/config.yml`
 
@@ -94,9 +96,11 @@ In the head
 ```
 <head>
   ...
+  <script crossorigin="anonymous" src="https://polyfill.io/v3/polyfill.min.js?version=3.52.1&features=default"></script>
   <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 ```
+_note: there are other way to include the default browser polyfills, https://polyfill.io was just the easiest. If you don't care about Safari or ie, then you don't need to include this._
 
 Then just before the closing body
 ```

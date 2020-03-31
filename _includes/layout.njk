@@ -8,8 +8,6 @@ title: All The Things...
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{{ title }}</title>
 
-    <script async src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-
     <link rel="stylesheet" href="/css/base.css">
     <link rel="stylesheet" href="/css/github.css">
     <link rel="stylesheet" href="/css/prisim.css">
@@ -20,16 +18,9 @@ title: All The Things...
       }
     </style>
 
+    <script async src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
     <script>
-    if (window.netlifyIdentity) {
-      window.netlifyIdentity.on("init", user => {
-        if (!user) {
-          window.netlifyIdentity.on("login", () => {
-            document.location.href = "/admin/";
-          });
-        }
-      });
-    }
+    window.netlifyIdentity && window.netlifyIdentity.on("init", n => { n || window.netlifyIdentity.on("login", () => { document.location.href = "/admin/" }) });
     </script>
 
   </head>
