@@ -1,6 +1,6 @@
 ---
 layout: layout.njk
-title: Connect existing 11ty to NetlifyCMS
+title: "Update: Connect existing 11ty to NetlifyCMS"
 date: 2020-03-31T17:15:32.261Z
 ---
 ![]()
